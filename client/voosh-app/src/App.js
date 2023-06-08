@@ -5,7 +5,7 @@ import './App.css';
 import Routes from './Routes'
 
 function App() {
-  axios.defaults.baseURL="https://filthy-jumpsuit-yak.cyclic.app/";
+  axios.defaults.baseURL = "https://filthy-jumpsuit-yak.cyclic.app/";
   axios.defaults.withCredentials= true;
   return (
     <UserContextProvider>
